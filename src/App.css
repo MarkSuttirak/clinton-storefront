@@ -197,6 +197,17 @@
   background-color:#F0592A;
 }
 
+
+.heading-gradient {
+  background: linear-gradient(90.29deg, #4678A7 4.5%, #AFC9D5 108.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+
 @keyframes loadingAnim{
   from{transform:rotate(0deg)}
   to{transform:rotate(360deg)}

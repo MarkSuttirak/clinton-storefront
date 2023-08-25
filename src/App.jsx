@@ -52,6 +52,10 @@ import CollectPoints from "./pages/CollectPoints";
 import HowRedeemReward from "./pages/HowRedeemReward";
 import MemberConditions from "./pages/MemberConditions";
 import SingleBlog from "./pages/SingleBlog";
+import MainPage from "./pages/MainPage";
+import About from "./pages/About";
+import FooterClinton from "./components/FooterClinton";
+import HeaderCllinton from "./components/HeaderCllinton";
 
 
 function App() {
@@ -89,9 +93,9 @@ function App() {
       }
     }
 
-    if (!getToken()) {
-      navigate("/login");
-    }
+    // if (!getToken()) {
+    //   navigate("/login");
+    // }
 
   }, []);
 
@@ -104,6 +108,7 @@ function App() {
         token: getToken,
       }}
     >
+      <HeaderCllinton />
       <UserProvider>
         <ProductsProvider>
           <CartProvider>
@@ -175,11 +180,16 @@ function App() {
               <Route path="/blog-admin" element={<BlogAdmin />} />
               <Route path="/blog-categories" element={<BlogCategories />} />
               <Route path="/blog-add" element={<BlogAdd />} />
+              <Route path="/main-page" element={<MainPage />} />
+              <Route path="/about-us" element={<About />} />
+
+              
             </Routes>
             <Cart />
           </CartProvider>
         </ProductsProvider>
       </UserProvider>
+    <FooterClinton />
     </FrappeProvider>
   )
 }
