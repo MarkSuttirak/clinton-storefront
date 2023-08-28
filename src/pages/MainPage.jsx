@@ -194,7 +194,7 @@ export default function MainPage() {
           </div>
         </div>
 
-        <div className="bg-[#384B94] items-center rounded-[32px] flex">
+        <div className="bg-[#384B94] items-center justify-between rounded-[32px] flex">
           <div>
             <img src={clintonTryton} className="w-[90%] ml-auto" alt="" />
           </div>
