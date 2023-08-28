@@ -233,7 +233,7 @@ export default function MainPage() {
           <h2 className="text-[#263676] text-[74px] leading-[70px] font-bold mt-[180px]">
             อุปกรณ์ทำสวน
           </h2>
-          <p className="text-[28px] font-bold w-[700px] mt-5 heading-gradient">
+          <p className="text-[28px] font-bold sm:w-[700px] mt-5 heading-gradient">
             ที่สุดแห่งเครื่องมือการเกษตรสมัยใหม่ประสิทธิภาพสูง การันตีด้วยคุณภาพ
             พร้อมลุยงานเกษตรทุกพื้นที่
           </p>
