@@ -180,7 +180,7 @@ export default function MainPage() {
           allowfullscreen
         ></iframe>
       </div>
-      <div className="px-[30px] first-letter grid grid-cols-2 gap-6">
+      <div className="px-[30px] first-letter grid sm:grid-cols-2 gap-6">
         <div className="bg-[#F3F3F3] flex flex-col items-start rounded-[32px] pt-[50px] pb-[30px]">
           <div className="ml-[40px]">
             <img
@@ -228,7 +228,7 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="flex justify-center items-start w-[1270px] mx-auto">
+      <div className="sm:flex justify-center items-start sm:w-[1270px] mx-auto">
         <div>
           <h2 className="text-[#263676] text-[74px] leading-[70px] font-bold mt-[180px]">
             อุปกรณ์ทำสวน
@@ -238,7 +238,7 @@ export default function MainPage() {
             พร้อมลุยงานเกษตรทุกพื้นที่
           </p>
         </div>
-        <img className="w-[700px] mt-44 -ml-56 " src={belowBanner} alt="" />
+        <img className="sm:w-[700px] mt-44 sm:-ml-56 " src={belowBanner} alt="" />
       </div>
 
       <div className="sm:w-[1270px] mx-auto mb-10">
