@@ -189,7 +189,7 @@ export default function MainPage() {
               alt=""
             />
           </div>
-          <div className="flex justify-end -mt-[200px]">
+          <div className="flex justify-end sm:-mt-[200px]">
             <img src={banner1} className="w-[70%] h-[auto]" alt="" />
           </div>
         </div>
