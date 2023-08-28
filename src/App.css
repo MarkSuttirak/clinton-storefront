@@ -206,6 +206,12 @@
   text-fill-color: transparent;
 }
 
+.white-gradient {
+  background: linear-gradient(89.75deg,#FFFFFF 24.63%,rgba(182,195,244,0.76) 122.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 @keyframes loadingAnim{
