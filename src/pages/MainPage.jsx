@@ -41,6 +41,8 @@ import blog3img from "../img/blog3img.webp";
 import blog4img from "../img/blog4img.webp";
 import clintonTryton from "../img/clintonTryton.webp";
 import trytonCylender from "../img/trytonCylender.webp";
+import clintonPump from "../img/clintonPump.webp";
+import clintonPump1 from "../img/clintonPump1.webp";
 
 const solutions = [
   {
@@ -120,44 +122,36 @@ const resources = [
 
 const posts = [
   {
-    title: "Boost your conversion rate",
+    title: "3 สิ่งที่ควรรู้ก่อนเลือกซื้อ เครื่องขัดกระดาษทราย",
     href: "#",
+	date: "สิงหาคม 26, 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
-    date: "Mar 16, 2020",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "6 min",
+      "เทคนิคเลือกซื้อ เครื่องขัดกระดาษทราย เครื่องขัดกระดาษทราย โดยทั่วไปที่จำหน่ายในท้องตลาดมีอยู่",
+    imageUrl:blog1img
   },
   {
-    title: "How to use search engine optimization to drive sales",
+    title: "บริษัท คลินตันอินเตอร์เทรด จำกัด ร่วมกับ รพ.เกษม",
     href: "#",
-    category: { name: "Video", href: "#" },
+	date: "มิถุนายน 30, 2023",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-    date: "Mar 10, 2020",
-    imageUrl:
-      "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+      "บริษัท คลินตันอินเตอร์เทรด จำกัด ร่วมกับ รพ.เกษมราษฎร์บางแค ตรวจสุขภาพพนักงานประจำปี 2566.",
+    imageUrl:blog2img
   },
   {
-    title: "Improve your customer experience",
+    title: "5 ส่วนประกอบหลักปั๊มน้ำหอยโข่ง มีอะไรบ้าง?",
     href: "#",
-    category: { name: "Case Study", href: "#" },
+	date: "สิงหาคม 23, 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
-    date: "Feb 12, 2020",
-    imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+      "ส่วนประกอบหลักปั๊มน้ำหอยโข่ง ปั๊มหอยโข่ง ภาษาอังกฤษ (Centrifugal Pump) เป็นปั๊มสูบน้ำที่มีรูปทรงเป็น",
+    imageUrl:blog3img
   },
   {
-    title: "Improve your customer experience",
+    title: "6 วิธีการติดตั้งปั๊มน้ำบาดาล",
     href: "#",
-    category: { name: "Case Study", href: "#" },
+	date: "สิงหาคม 26, 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
-    date: "Feb 12, 2020",
-    imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+      "วิธีการติดตั้งปั๊มน้ำบาดาล วิธีการติดตั้งปั๊มน้ำบาดาล เป็นปั๊มน้ำที่ใช้สำหรับสูบน้ำที่อยู่ลึกใต้ผิวดิน หรือสูบน้ำขึ้น",
+    imageUrl:blog4img
   },
 ];
 
@@ -187,9 +181,8 @@ export default function MainPage() {
         ></iframe>
       </div>
       <div className="px-[30px] first-letter grid grid-cols-2 gap-6">
-
         <div className="bg-[#F3F3F3] flex flex-col items-start rounded-[32px] pt-[50px] pb-[30px]">
-		  <div className="ml-[40px]">
+          <div className="ml-[40px]">
             <img
               src={banner1Ico}
               className="w-[337px] pt-[90px] h-[auto]"
@@ -210,16 +203,34 @@ export default function MainPage() {
           </div>
         </div>
 
-		<div className="flex flex-col items-center justify-center h-[580px]">
-			<h2 className="text-[#27387A] font-bold text-[46px] leading-[58px]">ปั๊มน้ำคลินตัน อึด แกร่ง แรงสุดขั้ว</h2>
-			<p className="text-[#27387A] text-[26px] leading-[38px] font-bold">เครื่องปั๊มน้ำ ต้องคลินตัน ด้วยสมรรถนะที่เหนือกว่าใคร ความแรงไม่มีตก ทำงานต่อเนื่องได้ไม่มีสะดุด ทำให้ ‘ปั๊มน้ำคลินตัน’ เป็นสินค้าขายดีอันดับหนึ่ง</p>
-		</div>
+        <div className="flex flex-col items-center justify-center pl-[120px] pr-[120px]">
+          <h2 className="text-[#27387A] font-bold text-[46px] leading-[58px]">
+            ปั๊มน้ำคลินตัน อึด แกร่ง แรงสุดขั้ว
+          </h2>
+          <p className="text-[#27387A] text-[26px] leading-[38px] font-semibold">
+            เครื่องปั๊มน้ำ ต้องคลินตัน ด้วยสมรรถนะที่เหนือกว่าใคร ความแรงไม่มีตก
+            ทำงานต่อเนื่องได้ไม่มีสะดุด ทำให้ ‘ปั๊มน้ำคลินตัน’
+            เป็นสินค้าขายดีอันดับหนึ่ง
+          </p>
+        </div>
 
+        <div className="bg-[#F3F3F3] flex-col rounded-[32px] flex items-center">
+          <div className="ml-[auto]">
+            <img
+              src={clintonPump1}
+              className="mr-[80px] mt-[60px] w-[45%] self-start ml-[auto]"
+              alt=""
+            />
+          </div>
+          <div className="flex items-center">
+            <img src={clintonPump} className="sm:w-[70%]" alt="" />
+          </div>
+        </div>
       </div>
 
       <div className="flex justify-center items-start w-[1270px] mx-auto">
         <div>
-          <h2 className="text-[#263676] text-[74px] leading-[70px] font-bold mt-[200px]">
+          <h2 className="text-[#263676] text-[74px] leading-[70px] font-bold mt-[180px]">
             อุปกรณ์ทำสวน
           </h2>
           <p className="text-[28px] font-bold w-[700px] mt-5 heading-gradient">
@@ -291,7 +302,7 @@ export default function MainPage() {
               >
                 <div className="flex-shrink-0">
                   <img
-                    className="h-48 w-full object-cover"
+                    className="h-[148px] w-full object-cover"
                     src={post.imageUrl}
                     alt=""
                   />
