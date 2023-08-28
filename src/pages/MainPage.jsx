@@ -203,7 +203,7 @@ export default function MainPage() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center pl-[120px] pr-[120px]">
+        <div className="flex flex-col items-center justify-center sm:px-[120px]">
           <h2 className="text-[#27387A] font-bold text-[46px] leading-[58px]">
             ปั๊มน้ำคลินตัน อึด แกร่ง แรงสุดขั้ว
           </h2>
