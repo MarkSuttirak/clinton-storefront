@@ -6,6 +6,8 @@ import image101 from "../img/image-10-1.webp";
 import About2 from "../img/About2.webp";
 import aboutMiddleImg1 from "../img/aboutMiddleImg1.webp";
 import aboutMiddleImg2 from "../img/aboutMiddleImg2.webp";
+import AboutUsGenerator from "../img/AboutUsGenerator.webp";
+import AboutUsDrill from "../img/AboutUsDrill.webp";
 
 function About() {
   return (
@@ -41,7 +43,13 @@ function About() {
       </div>
 
 
-      <div className="max-w-[1140px] mx-auto flex mt-[100px]">
+      <div className="max-w-[1140px] flex flex-wrap justify-between mx-auto mt-[50px] px-[10px] sm:px-0">
+        <img src={AboutUsGenerator} className="w-[40%]" alt="" />
+        <img src={AboutUsDrill} className="max-w-[80%] w-[40%]" alt="" />
+      </div>
+
+
+      <div className="max-w-[1140px] mx-auto flex mt-[30px]">
 
         <div className="w-[47%]">
           <img src={aboutMiddleImg1}  alt="" />
@@ -63,7 +71,6 @@ function About() {
 
       <div className="max-w-[1140px] mx-auto flex mt-[200px]">
 
-
       <div className="w-[53%] ">
           <div>
             <p className="text-[26px] leading-[37px] font-medium text-[#434343]">พันธกิจของเรา</p>
@@ -80,9 +87,8 @@ function About() {
           <h6 class="text-[26px] leading-[37px] text-[#434343] font-bold mt-[20px]">คุณ กัลย์รัชต์ วรพาณิชย์<br />CFO</h6>
         </div>
 
-        
-
       </div>
+
 
       <div className="mt-[150px] bg-[#243576] py-[120px] sm:py-[300px] px-[15px]">
         <div className="max-w-[1140px] mx-auto">
