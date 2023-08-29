@@ -99,7 +99,7 @@ export default function HeaderCllinton() {
   return (
     <Popover className="relative bg-white">
       <div
-        className="pointer-events-none absolute inset-0 z-30 shadow"
+        className="pointer-events-none absolute inset-0 z-30"
         aria-hidden="true"
       />
       <div className="relative z-20">

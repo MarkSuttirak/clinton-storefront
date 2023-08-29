@@ -113,7 +113,7 @@ function App() {
         <ProductsProvider>
           <CartProvider>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<MainPage />} />
               <Route path="products/:id" element={<Product />} />
               <Route path="product-compare/:id" element={<ProductCompare />} />
               <Route path="/checkout" element={<Checkout />} />

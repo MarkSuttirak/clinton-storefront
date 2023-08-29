@@ -180,7 +180,7 @@ export default function MainPage() {
           allowfullscreen
         ></iframe>
       </div>
-      <div className="px-[30px] first-letter grid grid-cols-2 gap-6">
+      <div className="px-[30px] first-letter grid sm:grid-cols-2 gap-6">
         <div className="bg-[#F3F3F3] flex flex-col items-start rounded-[32px] pt-[50px] pb-[30px]">
           <div className="ml-[40px]">
             <img
@@ -189,12 +189,12 @@ export default function MainPage() {
               alt=""
             />
           </div>
-          <div className="flex justify-end -mt-[200px]">
+          <div className="flex justify-end sm:-mt-[200px]">
             <img src={banner1} className="w-[70%] h-[auto]" alt="" />
           </div>
         </div>
 
-        <div className="bg-[#384B94] items-center rounded-[32px] flex">
+        <div className="bg-[#384B94] items-center justify-between rounded-[32px] flex">
           <div>
             <img src={clintonTryton} className="w-[90%] ml-auto" alt="" />
           </div>
@@ -203,7 +203,7 @@ export default function MainPage() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center pl-[120px] pr-[120px]">
+        <div className="flex flex-col items-center justify-center sm:px-[120px]">
           <h2 className="text-[#27387A] font-bold text-[46px] leading-[58px]">
             ปั๊มน้ำคลินตัน อึด แกร่ง แรงสุดขั้ว
           </h2>
@@ -228,17 +228,17 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="flex justify-center items-start w-[1270px] mx-auto">
+      <div className="sm:flex justify-center items-start sm:w-[1270px] mx-auto">
         <div>
           <h2 className="text-[#263676] text-[74px] leading-[70px] font-bold mt-[180px]">
             อุปกรณ์ทำสวน
           </h2>
-          <p className="text-[28px] font-bold w-[700px] mt-5 heading-gradient">
+          <p className="text-[28px] font-bold sm:w-[700px] mt-5 heading-gradient">
             ที่สุดแห่งเครื่องมือการเกษตรสมัยใหม่ประสิทธิภาพสูง การันตีด้วยคุณภาพ
             พร้อมลุยงานเกษตรทุกพื้นที่
           </p>
         </div>
-        <img className="w-[700px] mt-44 -ml-56 " src={belowBanner} alt="" />
+        <img className="sm:w-[700px] mt-44 sm:-ml-56 " src={belowBanner} alt="" />
       </div>
 
       <div className="sm:w-[1270px] mx-auto mb-10">
