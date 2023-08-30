@@ -213,6 +213,23 @@
 }
 
 
+.gravity-list-items span {
+  /* font-family: sukhumvit set,Sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color:black;
+}
+
+
+.gravityBgImg {
+  background-image:url('../src/img/gravityBgImg.png');
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+
+
 
 @keyframes loadingAnim{
   from{transform:rotate(0deg)}
