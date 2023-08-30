@@ -11,7 +11,7 @@ function GurantyForm() {
   };
   return (
     <>
-      <div className="flex flex-wrap max-w-[1445px] mx-auto mt-[140px] px-4 md:px-0">
+      <div className="flex flex-wrap max-w-[1445px] mx-auto mt-[60px] md:mt-[140px] px-4 md:px-0">
         <div className="md:w-[45%]">
           <h2 className="text-[48px] md:text-[65px] leading-[56px] md:leading-[82px]  font-bold heading-gradient">
             เงื่อนไข
@@ -20,7 +20,7 @@ function GurantyForm() {
           </h2>
         </div>
 
-        <div className="md:w-[55%]">
+        <div className="md:w-[55%] md:pt-[20px]">
           <ul className="gravity-list-items">
             <li className="gravity-list-item">
               <span className="gravity-list-text">
@@ -101,7 +101,7 @@ function GurantyForm() {
         </div>
       </div>
 
-      <div className="max-w-[1445px] flex flex-wrap mx-auto mt-[100px] mb-[200px] px-4 md:px-0">
+      <div className="max-w-[1445px] flex flex-wrap mx-auto mt-[30px] md:mt-[100px] mb-[200px] px-4 md:px-0">
         <div className="w-full md:w-[57%]">
           <form className="space-y-8">
             <div className="space-y-8">
