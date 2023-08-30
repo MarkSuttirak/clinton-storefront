@@ -9,10 +9,10 @@ function ContactUs() {
     return (
         <>
             <div className="max-w-[1300px] mx-auto mt-[100px]">
-                <div className="text-[40px] leading-[40px] text-black font-semibold">
+                <div className="text-[40px] leading-[40px] text-black font-semibold px-4">
                     ติดต่อและสั่งซื้อ
                 </div>
-                <form className="space-y-8">
+                <form className="space-y-8 px-4">
                     <div className="space-y-8">
                         <div className="pt-8">
                             <div className="mt-6 grid grid-cols-1 gap-y-7 gap-x-9 sm:grid-cols-6">
