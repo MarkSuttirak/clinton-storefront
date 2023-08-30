@@ -186,7 +186,7 @@ function App() {
               <Route path="/main-page" element={<MainPage />} />
               <Route path="/about-us" element={<About />} />
               <Route path="/contact-us" element={<ContactUs />} />
-              <Route path="/guranty-form" element={<GurantyForm />} />
+              <Route path="/guaranty-form" element={<GurantyForm />} />
               <Route path="/blog" element={<Blog />} />
 
               
