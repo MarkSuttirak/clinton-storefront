@@ -56,6 +56,9 @@ import MainPage from "./pages/MainPage";
 import About from "./pages/About";
 import FooterClinton from "./components/FooterClinton";
 import HeaderCllinton from "./components/HeaderCllinton";
+import ContactUs from "./pages/ContactUs";
+import GurantyForm from "./pages/GurantyForm";
+import Blog from "./pages/blog";
 
 
 function App() {
@@ -182,6 +185,9 @@ function App() {
               <Route path="/blog-add" element={<BlogAdd />} />
               <Route path="/main-page" element={<MainPage />} />
               <Route path="/about-us" element={<About />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/guaranty-form" element={<GurantyForm />} />
+              <Route path="/blog" element={<Blog />} />
 
               
             </Routes>
