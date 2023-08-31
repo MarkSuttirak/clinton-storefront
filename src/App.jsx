@@ -103,14 +103,17 @@ function App() {
   }, []);
 
   return (
-    <FrappeProvider url={"https://dev.honda.zaviago.com"}
-      enableSocket={false}
-      tokenParams={{
-        type: "token",
-        useToken: true,
-        token: getToken,
-      }}
-    >
+    // <FrappeProvider url={"https://dev.honda.zaviago.com"}
+    //   enableSocket={false}
+    //   tokenParams={{
+    //     type: "token",
+    //     useToken: true,
+    //     token: getToken,
+    //   }}
+    // >
+
+    // It might fix the issue of 'blog/page' error.
+    <FrappeProvider>
       <HeaderCllinton />
       <UserProvider>
         <ProductsProvider>
