@@ -21,7 +21,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-import clintonLogo from "../img/clinton-logo.png";
+import clintonLogo from "../img/Clinton-logo-header.png";
 import flagLogo from "../img/flagLogo.svg";
 import searchIcon from "../img/searchIcon.svg";
 import marketBag from "../img/marketBag.svg";
