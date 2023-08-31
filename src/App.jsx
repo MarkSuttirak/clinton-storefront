@@ -58,7 +58,7 @@ import FooterClinton from "./components/FooterClinton";
 import HeaderCllinton from "./components/HeaderCllinton";
 import ContactUs from "./pages/ContactUs";
 import GurantyForm from "./pages/GurantyForm";
-import Blog from "./pages/blog";
+import Blog from "./pages/Blog";
 
 
 function App() {
@@ -103,17 +103,14 @@ function App() {
   }, []);
 
   return (
-    // <FrappeProvider url={"https://dev.honda.zaviago.com"}
-    //   enableSocket={false}
-    //   tokenParams={{
-    //     type: "token",
-    //     useToken: true,
-    //     token: getToken,
-    //   }}
-    // >
-
-    // It might fix the issue of 'blog/page' error.
-    <FrappeProvider>
+    <FrappeProvider url={"https://dev.honda.zaviago.com"}
+      enableSocket={false}
+      tokenParams={{
+        type: "token",
+        useToken: true,
+        token: getToken,
+      }}
+    >
       <HeaderCllinton />
       <UserProvider>
         <ProductsProvider>
