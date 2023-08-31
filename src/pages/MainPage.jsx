@@ -258,7 +258,7 @@ export default function MainPage() {
       </div>
 
       <div className="w-[full] bg-[#243576]">
-        <div className="flex sm:flex-row flex-col-reverse mx-[auto] sm:w-[1512px] bg-[#243576] pt-[80px] sm:pt-[140px] mt-[160px] px-4">
+        <div className="flex sm:flex-row flex-col-reverse mx-[auto] md:max-w-[1512px] bg-[#243576] pt-[80px] sm:pt-[140px] mt-[160px] px-4">
           <div className="sm:w-[60%]">
             <div className="-mb-[50px] -ml-[100px] sm:mt-0 mt-[50px]">
               <img src={drillmachine} />
