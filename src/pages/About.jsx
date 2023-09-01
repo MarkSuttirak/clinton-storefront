@@ -1,9 +1,9 @@
 import React from "react";
 import clintonAboutUs from "../img/clintonAboutUs.webp";
 import clintonAboutUsMobile from "../img/clintonAboutUsMobile.webp";
-import pump_aboutus from "../img/pump_aboutus.webp";
-import image101 from "../img/image-10-1.webp";
-import About2 from "../img/About2.webp";
+import pump_aboutus from "../img/pump_aboutus.png";
+import image101 from "../img/image-10-1.png";
+import About2 from "../img/About2.png";
 import aboutMiddleImg1 from "../img/aboutMiddleImg1.png";
 import aboutMiddleImg2 from "../img/aboutMiddleImg2.png";
 import AboutUsGenerator from "../img/AboutUsGenerator.webp";
@@ -77,10 +77,10 @@ function About() {
         <div>
           <img
             src={pump_aboutus}
-            className="max-w-[394px] w-full ml-auto"
+            className="max-h-[329px] ml-auto w-5/6"
             alt=""
           />
-          <img src={About2} className="mt-[60px] w-full" alt="" />
+          <img src={About2} className="max-h-[349px] mt-[36px] " alt="" />
         </div>
         <div>
           <img src={image101} className="w-full" alt="" />
@@ -112,7 +112,7 @@ function About() {
         <img src={AboutUsDrill} className="max-w-[80%] w-[40%]" alt="" />
       </div>
 
-      <div className="max-w-[1140px] mx-auto flex flex-wrap sm:mt-[30px] mt-[100px] px-[15px]">
+      <div className="max-w-[1140px] mx-auto flex flex-wrap lg:mt-[150px] mt-[100px] px-[15px]">
         <div className="w-[100%] sm:w-[47%]">
           <img src={aboutMiddleImg1} className="rounded-2xl" alt="" />
           <h6 class="text-[26px] leading-[37px] text-[#434343] font-bold mt-[20px]">
@@ -122,7 +122,7 @@ function About() {
           </h6>
         </div>
 
-        <div className="w-[100%] sm:w-[53%] sm:pt-[80px] pt-[40px] sm:pl-[70px]">
+        <div className="w-[100%] sm:w-[53%] sm:pt-[180px] pt-[40px] sm:pl-[70px]">
           <div>
             <p className="text-[26px] leading-[37px] font-medium text-[#434343]">
               วิสัยทัศน์
