@@ -89,36 +89,7 @@ const resources = [
   { name: "Guides", href: "#", icon: BookmarkSquareIcon },
   { name: "Webinars", href: "#", icon: ComputerDesktopIcon },
 ];
-// const blogPosts = [
-//     {
-//         date: "สิงหาคม 25, 2023",
-//         title: "2 เคล็ดไม่ลับ กำจัดตะไคร่น้ำฝังแน่น ให้หายวับในพริบตา",
-//         href: "#",
-//         desc: "เคล็ดไม่ลับ กำจัดตะไคร่น้ำฝังแน่น ให้หายวับในพริบตา ตะไคร่น้ำ คือหนึ่งในภัยร้ายหน้าฝน ที่นอกจากจะสร้าง",
-//         imageUrl: blog1img
-//     },
-//     {
-//         date: "สิงหาคม 26, 2022",
-//         title: "3 สิ่งที่ควรรู้ก่อนเลือกซื้อ เครื่องขัดกระดาษทราย",
-//         href: "#",
-//         desc: "เทคนิคเลือกซื้อ เครื่องขัดกระดาษทราย เครื่องขัดกระดาษทราย โดยทั่วไปที่จำหน่ายในท้องตลาดมีอยู่",
-//         imageUrl: blog2img
-//     },
-//     {
-//         date: "สิงหาคม 24, 2022",
-//         title: "5 เหตุผล ทำไมต้องตู้เชื่อม TRYTON อินเวอร์เตอร์",
-//         href: "#",
-//         desc: "ทำไมต้อง ตู้เชื่อมอินเวอร์เตอร์ TRYTON ตู้เชื่อมไฟฟ้าอินเวอร์เตอร์ เครื่องมือที่ช่างส่วนใหญ่นิยมใช้ ระบ",
-//         imageUrl: blog3img
-//     },
-//     {
-//         date: "สิงหาคม 30, 2022",
-//         title: "หมดปัญหา ซ่อมเครื่องดูดฝุ่นบ่อย ด้วย 8 เทคนิคยืด",
-//         href: "#",
-//         desc: "เทคนิคยืดอายุการใช้งานเครื่องดูดฝุ่น หมดปัญหา ซ่อมเครื่องดูดฝุ่นบ่อย ด้วย 8 เทคนิคยืดอายุการใช้งาน เป็น",
-//         imageUrl: blog4img
-//     },
-// ];
+
 
 const posts = [
   {
@@ -164,10 +135,10 @@ export default function MainPage() {
     <>
       {/* <HeaderCllinton /> */}
       <div className="my-24 text-center">
-        <h2 className="text-[60px] text-[#9CC5D9] leading-[18px] font-normal">
+        <h2 className="lg:text-[60px] text-[20px] text-[#9CC5D9] leading-[18px] font-medium">
           CREATE THE BEST EXPERIENCE
         </h2>
-        <button className="bg-[#263676] rounded-lg text-center w-[150px] mt-10 text-white h-[40px]">
+        <button className="bg-[#263676] rounded-lg text-center w-[150px] mt-12 text-white h-[40px]">
           สินค้าทั้งหมด
         </button>
         <iframe
@@ -181,7 +152,7 @@ export default function MainPage() {
         ></iframe>
       </div>
       <div className="px-[30px] first-letter grid sm:grid-cols-2 gap-6">
-        <div className="bg-[#F3F3F3] flex flex-col items-start rounded-[32px] pt-[50px] pb-[30px]">
+        <div className="bg-[#F3F3F3] flex flex-col items-start rounded-[22px] pt-[50px] pb-[30px]">
           <div className="ml-[40px]">
             <img
               src={banner1Ico}
@@ -194,7 +165,7 @@ export default function MainPage() {
           </div>
         </div>
 
-        <div className="bg-[#384B94] items-center justify-between rounded-[32px] flex">
+        <div className="bg-[#384B94] items-center justify-between rounded-[22px] flex">
           <div>
             <img src={clintonTryton} className="w-[90%] ml-auto" alt="" />
           </div>
@@ -214,7 +185,7 @@ export default function MainPage() {
           </p>
         </div>
 
-        <div className="bg-[#F3F3F3] flex-col rounded-[32px] flex items-center">
+        <div className="bg-[#F3F3F3] flex-col rounded-[22px] flex items-center">
           <div className="ml-[auto]">
             <img
               src={clintonPump1}
