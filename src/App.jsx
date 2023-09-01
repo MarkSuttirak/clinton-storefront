@@ -60,6 +60,7 @@ import ContactUs from "./pages/ContactUs";
 import GurantyForm from "./pages/GurantyForm";
 import Blog from "./pages/Blog";
 import WarrantyCheck from "./pages/WarrantyCheck";
+import BlogDetail from "./pages/BlogDetail";
 
 
 function App() {
@@ -154,6 +155,7 @@ function App() {
               <Route path="/how-to-collect-rewards" element={<HowRedeemReward />} />
               <Route path="/member-conditions" element={<MemberConditions />} />
               <Route path="/single-blog" element={<SingleBlog />} />
+              <Route path="/blog-detail" element={<BlogDetail />} />
 
 
               <Route path="/blog-admin" element={<BlogAdmin />} />
