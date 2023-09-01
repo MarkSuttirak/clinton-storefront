@@ -21,7 +21,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-import clintonLogo from "../img/clinton-logo.png";
+import clintonLogo from "../img/Clinton-logo-header.png";
 import flagLogo from "../img/flagLogo.svg";
 import searchIcon from "../img/searchIcon.svg";
 import marketBag from "../img/marketBag.svg";
@@ -97,63 +97,95 @@ function classNames(...classes) {
 
 export default function HeaderCllinton() {
   return (
-    <Popover className="relative bg-white">
+    <>
+    <div className="relative bg-[#243576]">
+      <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+        <div className="pr-16 sm:px-16 sm:text-center">
+          <p className="font-medium text-white text-[14px] leading-[20px]">
+            <span className="hidden md:inline">จัดส่งฟรี เมื่อสั่งซื้อสินค้าตั้งแต่ 500 บาท ขึ้นไป</span>
+          </p>
+        </div>
+        <div className="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2">
+          <button
+            type="button"
+            className="flex rounded-md p-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white"
+          >
+            <span className="sr-only">Dismiss</span>
+            <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <Popover className="relative bg-white mt-3">
       <div
         className="pointer-events-none absolute inset-0 z-30"
         aria-hidden="true"
       />
       <div className="relative z-20">
-        <div className="flex items-center justify-between py-5 px-6 sm:py-0 md:justify-start md:space-x-10 lg:px-8">
+        <div className="flex items-center justify-between py-5 px-6 sm:py-0 md:justify-start md:space-x-5 lg:px-8">
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <span className="sr-only">Open menu</span>
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <Popover.Group as="nav" className="flex space-x-10 w-[36%]">
+          <Popover.Group as="nav" className="md:flex hidden space-x-3 w-[41%]">
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
-              สินค้าใหม
+              หน้าแรก
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
-              ช้อป
+             เกี่ยวกับเรา
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
-              ฟีเจอร
+              สินค้า
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
-              สินค้าลดราคา
+              บทความ
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
-              Brands
+              รับประกันสินค้า
             </a>
+            <a
+              href="#"
+              className="text-sm font-semibold text-black"
+            >
+             อี-แค็ตตาล็อก
+            </a>
+            <a
+              href="#"
+              className="text-sm font-semibold text-black"
+            >
+             Promotion
+            </a>
+            
           </Popover.Group>
           <div className=" w-1/3">
             <a href="#" className="flex">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-[95px] w-[256px] sm:h-[95px]"
+                className="w-[145px]"
                 src={clintonLogo}
                 alt=""
               />
             </a>
           </div>
           <div className="flex items-center md:ml-12 ">
-            <div className="border-r border-[#CCCCCC]">
+            <div className="md:block hidden border-r border-[#CCCCCC]">
               <a href="">ลงทะเบียน</a>
               <a href="" className="ml-5 mr-5">เข้าสู่ระบบ</a>
             </div>
@@ -287,5 +319,6 @@ export default function HeaderCllinton() {
         </Popover.Panel>
       </Transition>
     </Popover>
+    </>
   );
 }

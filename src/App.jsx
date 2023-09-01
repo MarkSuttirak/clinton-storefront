@@ -59,6 +59,7 @@ import HeaderCllinton from "./components/HeaderCllinton";
 import ContactUs from "./pages/ContactUs";
 import GurantyForm from "./pages/GurantyForm";
 import Blog from "./pages/Blog";
+import WarrantyCheck from "./pages/WarrantyCheck";
 
 
 function App() {
@@ -188,6 +189,7 @@ function App() {
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/guaranty-form" element={<GurantyForm />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/warranty-check" element={<WarrantyCheck />} />
 
               
             </Routes>

@@ -89,36 +89,7 @@ const resources = [
   { name: "Guides", href: "#", icon: BookmarkSquareIcon },
   { name: "Webinars", href: "#", icon: ComputerDesktopIcon },
 ];
-// const blogPosts = [
-//     {
-//         date: "สิงหาคม 25, 2023",
-//         title: "2 เคล็ดไม่ลับ กำจัดตะไคร่น้ำฝังแน่น ให้หายวับในพริบตา",
-//         href: "#",
-//         desc: "เคล็ดไม่ลับ กำจัดตะไคร่น้ำฝังแน่น ให้หายวับในพริบตา ตะไคร่น้ำ คือหนึ่งในภัยร้ายหน้าฝน ที่นอกจากจะสร้าง",
-//         imageUrl: blog1img
-//     },
-//     {
-//         date: "สิงหาคม 26, 2022",
-//         title: "3 สิ่งที่ควรรู้ก่อนเลือกซื้อ เครื่องขัดกระดาษทราย",
-//         href: "#",
-//         desc: "เทคนิคเลือกซื้อ เครื่องขัดกระดาษทราย เครื่องขัดกระดาษทราย โดยทั่วไปที่จำหน่ายในท้องตลาดมีอยู่",
-//         imageUrl: blog2img
-//     },
-//     {
-//         date: "สิงหาคม 24, 2022",
-//         title: "5 เหตุผล ทำไมต้องตู้เชื่อม TRYTON อินเวอร์เตอร์",
-//         href: "#",
-//         desc: "ทำไมต้อง ตู้เชื่อมอินเวอร์เตอร์ TRYTON ตู้เชื่อมไฟฟ้าอินเวอร์เตอร์ เครื่องมือที่ช่างส่วนใหญ่นิยมใช้ ระบ",
-//         imageUrl: blog3img
-//     },
-//     {
-//         date: "สิงหาคม 30, 2022",
-//         title: "หมดปัญหา ซ่อมเครื่องดูดฝุ่นบ่อย ด้วย 8 เทคนิคยืด",
-//         href: "#",
-//         desc: "เทคนิคยืดอายุการใช้งานเครื่องดูดฝุ่น หมดปัญหา ซ่อมเครื่องดูดฝุ่นบ่อย ด้วย 8 เทคนิคยืดอายุการใช้งาน เป็น",
-//         imageUrl: blog4img
-//     },
-// ];
+
 
 const posts = [
   {
@@ -163,16 +134,16 @@ export default function MainPage() {
   return (
     <>
       {/* <HeaderCllinton /> */}
-      <div className="my-24 text-center">
-        <h2 className="text-[60px] text-[#9CC5D9] leading-[18px] font-normal">
+      <div className="sm:my-24 my-10 text-center">
+        <h2 className="lg:text-[60px] text-[20px] text-[#9CC5D9] leading-[18px] font-medium">
           CREATE THE BEST EXPERIENCE
         </h2>
-        <button className="bg-[#263676] rounded-lg text-center w-[150px] mt-10 text-white h-[40px]">
+        <button className="bg-[#263676] rounded-lg text-center w-[150px] mt-12 text-white h-[40px]">
           สินค้าทั้งหมด
         </button>
         <iframe
-          className="w-full mt-10 mb-10"
-          height="850"
+          className="w-full mt-12 mb-12 lg:h-[850px] h-[200px]"
+          
           src="https://www.youtube.com/embed/574O2eLqui0?si=86wbj2Y12AYcTzAj"
           title="YouTube video player"
           frameborder="0"
@@ -181,44 +152,44 @@ export default function MainPage() {
         ></iframe>
       </div>
       <div className="px-[30px] first-letter grid sm:grid-cols-2 gap-6">
-        <div className="bg-[#F3F3F3] flex flex-col items-start rounded-[32px] pt-[50px] pb-[30px]">
-          <div className="ml-[40px]">
+        <div className="bg-[#F3F3F3] sm:px-0 px-5 flex flex-col items-start rounded-[22px] pt-[30px] sm:pt-[50px] pb-[30px] sm:pb-[30px]">
+          <div className="sm:ml-[40px] ml-[30px] ">
             <img
               src={banner1Ico}
-              className="w-[337px] pt-[90px] h-[auto]"
+              className="w-[337px] sm:pt-[90px] sm:pb-0 pb-[20px] h-[auto]"
               alt=""
             />
           </div>
-          <div className="flex justify-end sm:-mt-[200px]">
-            <img src={banner1} className="w-[70%] h-[auto]" alt="" />
+          <div className="flex justify-center sm:justify-end sm:-mt-[200px]">
+            <img src={banner1} className="sm:w-[70%] h-[auto]" alt="" />
           </div>
         </div>
 
-        <div className="bg-[#384B94] items-center justify-between rounded-[32px] flex">
+        <div className="bg-[#384B94]  sm:px-0 px-5 items-center justify-between rounded-[22px] sm:flex py-[30px] sm:py-0">
           <div>
-            <img src={clintonTryton} className="w-[90%] ml-auto" alt="" />
+            <img src={clintonTryton} className="w-[90%] sm:pb-0 pb-[20px] m-auto sm:ml-auto" alt="" />
           </div>
           <div>
             <img src={trytonCylender} className="w-[411px]" alt="" />
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center sm:px-[120px]">
-          <h2 className="text-[#27387A] font-bold text-[46px] leading-[58px]">
+        <div className="flex flex-col items-center  sm:mt-0 mt-5 justify-center lg:px-[120px]">
+          <h2 className="text-[#27387A] font-bold text-[41px] sm:text-[46px] leading-[58px]">
             ปั๊มน้ำคลินตัน อึด แกร่ง แรงสุดขั้ว
           </h2>
-          <p className="text-[#27387A] text-[26px] leading-[38px] font-semibold">
+          <p className="text-[#27387A] text-[21px] sm:mt-0 mt-3 sm:text-[26px] leading-[38px] font-semibold">
             เครื่องปั๊มน้ำ ต้องคลินตัน ด้วยสมรรถนะที่เหนือกว่าใคร ความแรงไม่มีตก
             ทำงานต่อเนื่องได้ไม่มีสะดุด ทำให้ ‘ปั๊มน้ำคลินตัน’
             เป็นสินค้าขายดีอันดับหนึ่ง
           </p>
         </div>
 
-        <div className="bg-[#F3F3F3] flex-col rounded-[32px] flex items-center">
-          <div className="ml-[auto]">
+        <div className="bg-[#F3F3F3]  flex-col rounded-[22px] flex items-center">
+          <div className="ml-[auto] sm:px-0 px-5 sm:pb-0 pb-6">
             <img
               src={clintonPump1}
-              className="mr-[80px] mt-[60px] w-[45%] self-start ml-[auto]"
+              className="mr-[80px] sm:mt-[60px] first-letter mt-[30px] sm:w-[45%] self-start ml-[auto]"
               alt=""
             />
           </div>
@@ -228,24 +199,24 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="sm:flex justify-center items-start sm:w-[1270px] mx-auto">
+      <div className="md:flex justify-center items-start  mx-auto sm:px-0 px-5">
         <div>
-          <h2 className="text-[#263676] text-[74px] leading-[70px] font-bold mt-[180px]">
+          <h2 className="text-[#263676] text-[42px] sm:text-[74px] leading-[70px] font-bold mt-[50px] sm:mt-[180px]">
             อุปกรณ์ทำสวน
           </h2>
-          <p className="text-[28px] font-bold sm:w-[700px] mt-5 heading-gradient">
+          <p className="sm:text-[28px] text-[20px] font-bold sm:w-[700px] mt-5 heading-gradient">
             ที่สุดแห่งเครื่องมือการเกษตรสมัยใหม่ประสิทธิภาพสูง การันตีด้วยคุณภาพ
             พร้อมลุยงานเกษตรทุกพื้นที่
           </p>
         </div>
-        <img className="sm:w-[700px] mt-44 sm:-ml-56 " src={belowBanner} alt="" />
+        <img className="md:w-[700px] md :mt-44 sm:-ml-56 " src={belowBanner} alt="" />
       </div>
 
-      <div className="sm:w-[1270px] mx-auto mb-10">
-        <h2 className="text-[70px] leading-[94px] font-bold heading-gradient ">
+      <div className="md:w-[1270px] mx-auto mb-10 sm:px-0 px-3">
+        <h2 className="text-[32px] sm:text-[40px] lg:text-[70px] leading-[56px] sm:leading-[94px] font-bold heading-gradient ">
           เครื่องมือช่าง CLINTON
         </h2>
-        <p className="text-[26px] font-bold leading-[38px] mt- heading-gradient">
+        <p className="text-[18px] sm:text-[26px] font-bold leading-[38px] sm:mt-0 mt-5 heading-gradient">
           ตลอดระยะเวลาที่ผ่านมา เรามุ่งพัฒนาตั้งแต่เครื่องมือช่างพื้นฐาน
           ไปจนถึงเครื่องมือช่างระดับมืออาชีพ พร้อมให้บริการที่มีคุณภาพ
           และบริการหลังการขายที่ดีเยี่ยม ภายใต้แนวคิดว่า
@@ -258,7 +229,7 @@ export default function MainPage() {
       </div>
 
       <div className="w-[full] bg-[#243576]">
-        <div className="flex sm:flex-row flex-col-reverse mx-[auto] sm:w-[1512px] bg-[#243576] pt-[80px] sm:pt-[140px] mt-[160px] px-4">
+        <div className="flex sm:flex-row flex-col-reverse mx-[auto] md:max-w-[1512px] bg-[#243576] pt-[80px] sm:pt-[140px] mt-[160px] px-4">
           <div className="sm:w-[60%]">
             <div className="-mb-[50px] -ml-[100px] sm:mt-0 mt-[50px]">
               <img src={drillmachine} />
@@ -278,19 +249,19 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="sm:w-[760px] pt-[80px] mx-auto bg-white relative">
+      <div className="md:w-[760px] pt-[80px] mx-auto bg-white relative">
         <img src={singleimage} alt="" />
       </div>
 
-      <div className="flex justify-between mt-[80px]">
-        <img src={bottom1} className="w-[210px]" alt="" />
-        <img src={bottom2} className="w-[240px]" alt="" />
+      <div className="flex items-start justify-between mt-[80px]">
+        <img src={bottom1} className="sm:w-[210px] w-[130px]" alt="" />
+        <img src={bottom2} className="sm:w-[240px] w-[130px]" alt="" />
       </div>
 
       <div className="px-6 md:-mt-[130px] pb-[40px] lg:px-8">
         <div className="relative mx-auto max-w-7xl">
           <div className="text-center">
-            <h3 className="text-[96px] leading-[94px] font-bold tracking-[-2.1px] heading-gradient text-center">
+            <h3 className="text-[32px] sm:text-[96px] leading-[94px] font-bold tracking-[-2.1px] heading-gradient text-center">
               บทความ ข่าวสาร
             </h3>
           </div>
@@ -345,8 +316,8 @@ export default function MainPage() {
       </div>
 
       <div className="flex justify-between mb-[180px]">
-        <img src={bottom3} className="w-[210px]" alt="" />
-        <img src={bottom4} className="w-[240px]" alt="" />
+        <img src={bottom3} className="sm:w-[240px] w-[130px]" alt="" />
+        <img src={bottom4} className="sm:w-[240px] w-[130px]" alt="" />
       </div>
     </>
   );
