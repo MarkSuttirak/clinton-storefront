@@ -129,7 +129,7 @@ export default function HeaderCllinton() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <Popover.Group as="nav" className="flex space-x-3 w-[41%]">
+          <Popover.Group as="nav" className="md:flex hidden space-x-3 w-[41%]">
             <a
               href="#"
               className="text-sm font-semibold text-black"
@@ -185,7 +185,7 @@ export default function HeaderCllinton() {
             </a>
           </div>
           <div className="flex items-center md:ml-12 ">
-            <div className="border-r border-[#CCCCCC]">
+            <div className="md:block hidden border-r border-[#CCCCCC]">
               <a href="">ลงทะเบียน</a>
               <a href="" className="ml-5 mr-5">เข้าสู่ระบบ</a>
             </div>
