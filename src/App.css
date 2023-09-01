@@ -41,7 +41,14 @@
 body{
   background-image: url("./img/bodyBg.png");
   background-repeat: no-repeat;
-  /* background-position: center center; */
+}
+
+.warrntyTable tbody tr:nth-child(odd) {
+  background-color: #F9F9F9;
+}
+
+.warrntyTable thead th{
+  cursor: pointer;
 }
 
 .info-desc ol,.info-desc ul,.info-desc menu {
