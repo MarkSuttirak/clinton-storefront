@@ -38,6 +38,12 @@
   font-family:SukhumvitSet, Inter
 }
 
+body{
+  background-image: url("./img/bodyBg.png");
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+}
+
 .info-desc ol,.info-desc ul,.info-desc menu {
   list-style: revert !important;
   margin: revert !important;
