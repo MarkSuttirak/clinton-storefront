@@ -101,7 +101,7 @@ export default function HeaderCllinton() {
     <div className="relative bg-[#243576]">
       <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
         <div className="pr-16 sm:px-16 sm:text-center">
-          <p className="font-medium text-white text-[15px] leading-[28px]">
+          <p className="font-medium text-white text-[14px] leading-[20px]">
             <span className="hidden md:inline">จัดส่งฟรี เมื่อสั่งซื้อสินค้าตั้งแต่ 500 บาท ขึ้นไป</span>
           </p>
         </div>
@@ -132,43 +132,43 @@ export default function HeaderCllinton() {
           <Popover.Group as="nav" className="flex space-x-3 w-[41%]">
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
               หน้าแรก
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
              เกี่ยวกับเรา
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
               สินค้า
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
               บทความ
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
               รับประกันสินค้า
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
              อี-แค็ตตาล็อก
             </a>
             <a
               href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-sm font-semibold text-black"
             >
              Promotion
             </a>
