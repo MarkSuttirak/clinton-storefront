@@ -12,7 +12,7 @@
   transition: filter 0.5s linear;
 }
 
-@font-face {
+/* @font-face {
   font-family: Eventpop;
   src: url('../src/fonts/eventpop/eventpop-medium.ttf');
 }
@@ -21,10 +21,34 @@
   font-family: Eventpop;
   src: url('../src/fonts/eventpop/eventpop-bold.ttf');
   font-weight: bold
+} */
+
+@font-face {
+  font-family: SukhumvitSet;
+  src: url('../src/fonts/SukhumvitSet/SukhumvitSet-Medium.ttf');
+}
+
+@font-face {
+  font-family: SukhumvitSet;
+  src: url('../src/fonts/SukhumvitSet/SukhumvitSet-Bold.ttf');
+  font-weight: bold
 }
 
 * {
-  font-family:Eventpop, Inter
+  font-family:SukhumvitSet, Inter
+}
+
+body{
+  background-image: url("./img/bodyBg.png");
+  background-repeat: no-repeat;
+}
+
+.warrntyTable tbody tr:nth-child(odd) {
+  background-color: #F9F9F9;
+}
+
+.warrntyTable thead th{
+  cursor: pointer;
 }
 
 .info-desc ol,.info-desc ul,.info-desc menu {

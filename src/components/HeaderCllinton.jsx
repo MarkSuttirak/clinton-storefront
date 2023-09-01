@@ -105,7 +105,7 @@ export default function HeaderCllinton() {
             <span className="hidden md:inline">จัดส่งฟรี เมื่อสั่งซื้อสินค้าตั้งแต่ 500 บาท ขึ้นไป</span>
           </p>
         </div>
-        <div className="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2">
+        {/* <div className="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2">
           <button
             type="button"
             className="flex rounded-md p-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white"
@@ -113,10 +113,10 @@ export default function HeaderCllinton() {
             <span className="sr-only">Dismiss</span>
             <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" />
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
-    <Popover className="relative bg-white mt-3">
+    <Popover className="relative mt-5">
       <div
         className="pointer-events-none absolute inset-0 z-30"
         aria-hidden="true"

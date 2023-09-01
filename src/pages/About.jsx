@@ -63,7 +63,7 @@ function About() {
     <>
       <div>
         <img className="h-auto sm:hidden" src={clintonAboutUsMobile} alt="" />
-        <img className="h-auto sm:block  hidden" src={clintonAboutUs} alt="" />
+        <img className="h-auto sm:block w-full hidden" src={clintonAboutUs} alt="" />
       </div>
       <div className="max-w-5xl text-center mx-auto px-[15px] sm:px-0">
         <p className="text-[24px] sm:text-[26px] leading-[37px] font-semibold text-[#626262]">

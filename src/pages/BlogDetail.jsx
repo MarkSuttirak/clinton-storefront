@@ -59,18 +59,18 @@ function BlogDetail() {
   return (
     <>
       <div className="lg:w-[1000px] mx-auto my-20 sm:flex">
-        <div className="sm:w-[70%]">
+        <div className="sm:w-[70%] sm:px-10">
           <div>
             <h4 className="text-[30px] font-semibold leading-[1.4em]">
               4 เคล็ดลับ ทำงานช่างอย่างไรให้ปลอดภัยในหน้าฝน
             </h4>
-            <p className="text-[#F40045] text-[16px]">
-              สิงหาคม 30, 2023 No Comments
+            <p className="text-[#F40045] text-[16px] flex items-center gap-x-1">
+              <span>สิงหาคม 30, 2023</span> <span>.</span> <span>Category 1</span>
             </p>
           </div>
 
           <div className="mt-10">
-            <img className="rounded-2xl" src={blogDetail} alt="" />
+            <img className="rounded-2xl w-full" src={blogDetail} alt="" />
             <h5 className="font-bold text-[22px] mt-10">
               4 วิธีทำงานช่างให้ปลอดภัย ในหน้าฝน
             </h5>
@@ -163,7 +163,7 @@ function BlogDetail() {
             <img src={SingleBlog4} className="sm:w-[65%] mt-5" alt="" />
           </div>
 
-          <div className="flex justify-between mt-14 sm:w-[75%]">
+          <div className="flex justify-between mt-14">
             <div>
               <h4 className="text-[22px] font-medium">Share</h4>
             </div>
@@ -190,12 +190,12 @@ function BlogDetail() {
           </div>
         </div>
 
-        <div className="sm:w-[30%]">
+        <div className="sm:w-[30%] mt-28">
           <div>
             <img src={warrantyQrcode} className="rounded-lg" alt="" />
           </div>
           <div className="mt-5">
-            <h3>Social Media</h3>
+            <h3 className="text-[22px] font-medium">Social Media</h3>
             <div className="flex gap-5 mt-2">
               <img className="w-[45px] h-[45px]" src={blackFacebook} alt="" />
               <img className="w-[45px] h-[45px]" src={blackYoutube} alt="" />

@@ -1,4 +1,5 @@
 import React from "react";
+import sortIcon from "../img/sortIcon.png";
 
 function WarrantyCheck() {
   const people = [
@@ -34,14 +35,16 @@ function WarrantyCheck() {
       เงื่อนไข: "รับประกันเฉพาะมอเตอร์ (ทุ่นและเสื้อทุ่น) เท่านั้น",
       หมายเหตุ:
         "ไม่รับประกัน ความเสียหายที่เกิดจากการใช้งานและเก็บรักษา ตามเงื่อนไขที่บริษัทกำหนด",
-    },{
-        productModel: "#QDX1.5-16-0.37",
-        ชื่อสินค้า: "QDX1.5-16-0.37 ปั๊มแช่คลินตัน 370W -1",
-        ระยะเวลารับประกัน: "12 เดือน",
-        เงื่อนไข: "รับประกันเฉพาะมอเตอร์ (ทุ่นและเสื้อทุ่น) เท่านั้น",
-        หมายเหตุ:
-          "ไม่รับประกัน ความเสียหายที่เกิดจากการใช้งานและเก็บรักษา ตามเงื่อนไขที่บริษัทกำหนด",
-      },{
+    },
+    {
+      productModel: "#QDX1.5-16-0.37",
+      ชื่อสินค้า: "QDX1.5-16-0.37 ปั๊มแช่คลินตัน 370W -1",
+      ระยะเวลารับประกัน: "12 เดือน",
+      เงื่อนไข: "รับประกันเฉพาะมอเตอร์ (ทุ่นและเสื้อทุ่น) เท่านั้น",
+      หมายเหตุ:
+        "ไม่รับประกัน ความเสียหายที่เกิดจากการใช้งานและเก็บรักษา ตามเงื่อนไขที่บริษัทกำหนด",
+    },
+    {
       productModel: "#SSS1.5-16-0.37",
       ชื่อสินค้า: "SSS1.5-16-0.37 ปั๊มแช่สแตนเลส 1370W คลินตัน",
       ระยะเวลารับประกัน: "12 เดือน",
@@ -65,57 +68,82 @@ function WarrantyCheck() {
           <div className="-my-2 -mx-4 overflow-x-auto">
             <div className="inline-block min-w-full py-2 align-middle">
               <div className="overflow-hidden shadow-sm ring-1 ring-black ring-opacity-5">
-                <table className="min-w-full divide-y divide-gray-300">
+                <table className="min-w-full warrntyTable divide-y divide-gray-300">
                   <thead className="bg-[#243576] text-white">
                     <tr>
                       <th
                         scope="col"
-                        className="py-1 pl-4 pr-3 text-left text-base font-medium text-[white] sm:pl-6 lg:pl-8"
+                        className="py-1 pl-4 pr-3 text-left  sm:pl-6 lg:pl-8"
                       >
-                        PRODUCT MODEL
+                        <div className="flex justify-between items-center">
+                          <span className="text-base font-medium text-[white]">
+                            PRODUCT MODEL
+                          </span>
+                          <img src={sortIcon} className="w-[8px]" alt="" />
+                        </div>
                       </th>
                       <th
                         scope="col"
                         className="px-3 py-1 text-left text-base font-medium text-[white]"
                       >
-                        ชื่อสินค้า
+                        <div className="flex justify-between items-center">
+                          <span className="text-base font-medium text-[white]">
+                            ชื่อสินค้า
+                          </span>
+                          <img src={sortIcon} className="w-[8px]" alt="" />
+                        </div>
                       </th>
                       <th
                         scope="col"
                         className="px-1 py-1 text-left text-base font-medium text-[white]"
                       >
-                        ระยะเวลารับประกัน
+                        <div className="flex justify-between items-center">
+                          <span className="text-base font-medium text-[white]">
+                            ระยะเวลารับประกัน
+                          </span>
+                          <img src={sortIcon} className="w-[8px]" alt="" />
+                        </div>
                       </th>
                       <th
                         scope="col"
                         className="px-3 py-1 text-left text-base font-medium text-[white]"
                       >
-                        เงื่อนไข
+                        <div className="flex justify-between items-center">
+                          <span className="text-base font-medium text-[white]">
+                            เงื่อนไข
+                          </span>
+                          <img src={sortIcon} className="w-[8px]" alt="" />
+                        </div>
                       </th>
                       <th
                         scope="col"
                         className="px-3 py-1 text-left text-base font-medium text-[white]"
                       >
-                        หมายเหตุ
+                        <div className="flex justify-between items-center">
+                          <span className="text-base font-medium text-[white]">
+                            หมายเหตุ
+                          </span>
+                          <img src={sortIcon} className="w-[8px]" alt="" />
+                        </div>
                       </th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200 bg-white">
                     {people.map((person) => (
-                      <tr key={person.ระยะเวลารับประกัน}  >
-                        <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 lg:pl-8">
+                      <tr key={person.ระยะเวลารับประกัน}>
+                        <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-normal text-gray-900 sm:pl-6 lg:pl-8">
                           {person.productModel}
                         </td>
-                        <td className="whitespace-nowrap px-3 py-4 text-base font-medium text-[#111111]">
+                        <td className="whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
                           {person.ชื่อสินค้า}
                         </td>
-                        <td className="whitespace-nowrap px-3 py-4 text-base font-medium text-[#111111]">
+                        <td className="whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
                           {person.ระยะเวลารับประกัน}
                         </td>
-                        <td className="whitespace-nowrap px-3 py-4 text-base font-medium text-[#111111]">
+                        <td className="whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
                           {person.เงื่อนไข}
                         </td>
-                        <td className=" md:whitespace-break-spaces whitespace-nowrap px-3 py-4 text-base font-medium text-[#111111]">
+                        <td className=" md:whitespace-break-spaces whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
                           {person.หมายเหตุ}
                         </td>
                       </tr>
