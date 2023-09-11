@@ -58,8 +58,8 @@ function BlogDetail() {
 
   return (
     <>
-      <div className="lg:w-[1000px] mx-auto my-20 sm:flex">
-        <div className="sm:w-[70%] sm:px-10">
+      <div className="lg:w-[1000px] mx-auto my-20 sm:flex px-4 sm:px-7">
+        <div className="sm:w-[70%] sm:pr-10">
           <div>
             <h4 className="text-[30px] font-semibold leading-[1.4em]">
               4 เคล็ดลับ ทำงานช่างอย่างไรให้ปลอดภัยในหน้าฝน
@@ -190,7 +190,7 @@ function BlogDetail() {
           </div>
         </div>
 
-        <div className="sm:w-[30%] mt-28">
+        <div className="sm:w-[30%] mt-28 hidden xl:block">
           <div>
             <img src={warrantyQrcode} className="rounded-lg" alt="" />
           </div>

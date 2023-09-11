@@ -6,7 +6,11 @@ export default {
   presets: [tailwindConfig],
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}', './node_modules/@storefront-ui/react/**/*.{js,mjs}'],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'xl2': '1921px',
+      },
+    },
   },
   plugins: [],
 };

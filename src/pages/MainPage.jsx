@@ -138,7 +138,7 @@ export default function MainPage() {
         <h2 className="lg:text-[60px] text-[20px] text-[#9CC5D9] leading-[18px] font-medium">
           CREATE THE BEST EXPERIENCE
         </h2>
-        <button className="bg-[#263676] rounded-lg text-center w-[150px] mt-12 text-white h-[40px]">
+        <button className="bg-[#263676] text-[20px] leading-[20px] rounded-lg clintonButton text-center min-w-[150px] mt-12 text-white h-[40px]">
           สินค้าทั้งหมด
         </button>
         <iframe
@@ -151,34 +151,34 @@ export default function MainPage() {
           allowfullscreen
         ></iframe>
       </div>
-      <div className="px-[30px] first-letter grid sm:grid-cols-2 gap-6">
-        <div className="bg-[#F3F3F3] sm:px-0 px-5 flex flex-col items-start rounded-[22px] pt-[30px] sm:pt-[50px] pb-[30px] sm:pb-[30px]">
-          <div className="sm:ml-[40px] ml-[30px] ">
+      <div className="px-[16px] sm-[30px] first-letter grid sm:grid-cols-2 gap-6 xl2:px-[150px]">
+        <div className="bg-[#F3F3F3] sm:px-0 px-5 flex flex-col items-start xl2:items-stretch rounded-[22px] pt-[30px] sm:pt-[50px] pb-[30px] sm:pb-[30px]">
+          <div className="lg:ml-[40px] ml-[30px] ">
             <img
               src={banner1Ico}
-              className="w-[337px] sm:pt-[90px] sm:pb-0 pb-[20px] h-[auto]"
+              className="lg:w-[337px] sm:max-w-[200px] xl2:w-[40%]  lg:pt-[90px] sm:pb-0 pb-[20px] h-[auto]"
               alt=""
             />
           </div>
-          <div className="flex justify-center sm:justify-end sm:-mt-[200px]">
-            <img src={banner1} className="sm:w-[70%] h-[auto]" alt="" />
+          <div className="flex justify-center sm:justify-end sm:-mt-[90px] lg:-mt-[200px]">
+            <img src={banner1} className="sm:w-[70%] xl2:w-[60%] h-[auto]" alt="" />
           </div>
         </div>
 
-        <div className="bg-[#384B94]  sm:px-0 px-5 items-center justify-between rounded-[22px] sm:flex py-[30px] sm:py-0">
+        <div className="bg-[#384B94]  sm:px-0 px-5 items-center xl2:pl-[100px] justify-between rounded-[22px] sm:flex py-[30px] sm:py-0">
           <div>
-            <img src={clintonTryton} className="w-[90%] sm:pb-0 pb-[20px] m-auto sm:ml-auto" alt="" />
+            <img src={clintonTryton} className="w-[90%] xl2:w-[100%] sm:pb-0 pb-[20px] m-auto sm:ml-auto" alt="" />
           </div>
           <div>
-            <img src={trytonCylender} className="w-[411px]" alt="" />
+            <img src={trytonCylender} className=" w-[411px] xl2:w-[480px]" alt="" />
           </div>
         </div>
 
-        <div className="flex flex-col items-center  sm:mt-0 mt-5 justify-center lg:px-[120px]">
-          <h2 className="text-[#27387A] font-bold text-[41px] sm:text-[46px] leading-[58px]">
+        <div className="flex flex-col items-center xl2:text-center  sm:mt-0 mt-5 justify-center xl:px-[120px]">
+          <h2 className="text-[#27387A] font-bold text-[36px] lg:text-[46px] leading-[40px] lg:leading-[58px]">
             ปั๊มน้ำคลินตัน อึด แกร่ง แรงสุดขั้ว
           </h2>
-          <p className="text-[#27387A] text-[21px] sm:mt-0 mt-3 sm:text-[26px] leading-[38px] font-semibold">
+          <p className="text-[#27387A] text-[21px] sm:mt-3 mt-3 lg:text-[26px] leading-[25px] lg:leading-[38px] font-semibold">
             เครื่องปั๊มน้ำ ต้องคลินตัน ด้วยสมรรถนะที่เหนือกว่าใคร ความแรงไม่มีตก
             ทำงานต่อเนื่องได้ไม่มีสะดุด ทำให้ ‘ปั๊มน้ำคลินตัน’
             เป็นสินค้าขายดีอันดับหนึ่ง
@@ -199,9 +199,9 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="md:flex justify-center items-start  mx-auto sm:px-0 px-5">
+      <div className="md:flex justify-center items-start flex-wrap  mx-auto sm:px-0 px-5">
         <div>
-          <h2 className="text-[#263676] text-[42px] sm:text-[74px] leading-[70px] font-bold mt-[50px] sm:mt-[180px]">
+          <h2 className="text-[#263676] text-[42px] sm:text-[60px]  lg:text-[74px] leading-[70px] font-bold mt-[50px] sm:mt-[120px] xl:mt-[180px]">
             อุปกรณ์ทำสวน
           </h2>
           <p className="sm:text-[28px] text-[20px] font-bold sm:w-[700px] mt-5 heading-gradient">
@@ -209,10 +209,10 @@ export default function MainPage() {
             พร้อมลุยงานเกษตรทุกพื้นที่
           </p>
         </div>
-        <img className="md:w-[700px] md :mt-44 sm:-ml-56 " src={belowBanner} alt="" />
+        <img className="md:w-[700px] mt-[10px] xl:mt-56 lg:-mt-20 xl:-ml-56 " src={belowBanner} alt="" />
       </div>
 
-      <div className="md:w-[1270px] mx-auto mb-10 sm:px-0 px-3">
+      <div className="md:max-w-[1270px] flex-wrap mx-auto mb-10 sm:px-[15px] md:px-[30px] xl:px-0 px-3">
         <h2 className="text-[32px] sm:text-[40px] lg:text-[70px] leading-[56px] sm:leading-[94px] font-bold heading-gradient ">
           เครื่องมือช่าง CLINTON
         </h2>
@@ -230,12 +230,12 @@ export default function MainPage() {
 
       <div className="w-[full] bg-[#243576]">
         <div className="flex sm:flex-row flex-col-reverse mx-[auto] md:max-w-[1512px] bg-[#243576] pt-[80px] sm:pt-[140px] mt-[160px] px-4">
-          <div className="sm:w-[60%]">
+          <div className="xl:w-[60%]">
             <div className="-mb-[50px] -ml-[100px] sm:mt-0 mt-[50px]">
               <img src={drillmachine} />
             </div>
           </div>
-          <div className="sm:w-[40%] sm:pt-[150px]">
+          <div className="sm:w-[40%] hidden xl:block sm:pt-[150px]">
             <h3 className="white-gradient text-[40px] sm:text-[79px] font-bold leading-[56px] sm:leading-[100px]">
               โปรโมชั่นประจำเดือน
             </h3>
@@ -249,19 +249,19 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="md:w-[760px] pt-[80px] mx-auto bg-white relative">
+      <div className="md:w-[760px] pt-[60px] sm:pt-[120px] mx-auto bg-white relative">
         <img src={singleimage} alt="" />
       </div>
 
-      <div className="flex items-start justify-between mt-[80px]">
+      <div className="flex items-start justify-between mt-[20px] sm:mt-[60px] xl2:max-w-[1700px] xl2:mx-auto">
         <img src={bottom1} className="sm:w-[210px] w-[130px]" alt="" />
         <img src={bottom2} className="sm:w-[240px] w-[130px]" alt="" />
       </div>
 
-      <div className="px-6 md:-mt-[130px] pb-[40px] lg:px-8">
+      <div className="px-6 xl:-mt-[80px] pb-[40px] lg:px-8">
         <div className="relative mx-auto max-w-7xl">
           <div className="text-center">
-            <h3 className="text-[32px] sm:text-[96px] leading-[94px] font-bold tracking-[-2.1px] heading-gradient text-center">
+            <h3 className="text-[32px] sm:text-[45px] lg:text-[96px] leading-[94px]  font-bold tracking-[-2.1px] heading-gradient text-center">
               บทความ ข่าวสาร
             </h3>
           </div>
@@ -315,7 +315,7 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="flex justify-between mb-[180px]">
+      <div className="flex justify-between mb-[180px] xl2:max-w-[1700px] xl2:mx-auto">
         <img src={bottom3} className="sm:w-[240px] w-[130px]" alt="" />
         <img src={bottom4} className="sm:w-[240px] w-[130px]" alt="" />
       </div>
