@@ -13,7 +13,7 @@ function GurantyForm() {
     <>
       <div className="flex flex-wrap max-w-[1445px] mx-auto mt-[60px] md:mt-[140px] px-4 md:px-8">
         <div className="md:w-[45%]">
-          <h2 className="text-[48px] md:text-[65px] leading-[56px] md:leading-[82px]  font-bold heading-gradient">
+          <h2 className="text-[48px] sm:text-[56px]  md:text-[65px] leading-[56px] md:leading-[82px]  font-bold heading-gradient">
             เงื่อนไข
             <br />
             การรับประกันสินค้า
@@ -535,7 +535,7 @@ function GurantyForm() {
         <div className="md:w-[11%] md:block hidden"></div>
         <div className="w-full md:w-[31%]">
           <div className="gravityBgImg py-[100px]">
-            <h2 className="text-[56px] leading-[70px] font-bold text-center heading-gradient">
+            <h2 className="text-[56px] sm:text-[42px] sm:leading-[55px] leading-[70px] font-bold text-center heading-gradient">
               เสียงเงียบ
               <br />
               ทุกจังหวะ
