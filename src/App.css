@@ -247,6 +247,15 @@ body{
 
 
 
+.theBlueButton{
+  background: #263676;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
 
 
 .clintonButton:hover {
