@@ -11,9 +11,9 @@ function GurantyForm() {
   };
   return (
     <>
-      <div className="flex flex-wrap max-w-[1445px] mx-auto mt-[60px] md:mt-[140px] px-4 md:px-8">
+      <div className="flex flex-wrap max-w-[1445px] mx-auto mt-[60px] md:mt-[140px] px-4 md:px-4">
         <div className="md:w-[45%]">
-          <h2 className="text-[48px] md:text-[65px] leading-[56px] md:leading-[82px]  font-bold heading-gradient">
+          <h2 className="text-[56px] sm:text-[56px] px-1 md:text-[56px] leading-[56px] md:leading-[65px]  font-bold heading-gradient">
             เงื่อนไข
             <br />
             การรับประกันสินค้า
@@ -95,13 +95,13 @@ function GurantyForm() {
             </li>
           </ul>
 
-          <button className="bg-[#263676] rounded-lg font-bold text-base text-center w-[215px] mt-10 text-white h-[50px]">
+          <button className="theBlueButton font-bold w-[215px] mt-10 h-[50px]">
             ลงทะเบียนรับประกันสินค้า
           </button>
         </div>
       </div>
 
-      <div className="max-w-[1445px] flex flex-wrap mx-auto mt-[30px] md:mt-[100px] mb-[200px] px-4 md:px-0 lg:px-8 ">
+      <div className="max-w-[1445px] flex flex-wrap mx-auto mt-[30px] md:mt-[100px] mb-[50px] px-4 md:px-5 lg:px-8 ">
         <div className="w-full md:w-[57%]">
           <form className="space-y-8">
             <div className="space-y-8">
@@ -179,7 +179,7 @@ function GurantyForm() {
                       />
                       <label
                         htmlFor="fileInput"
-                        className="text-white bg-[#263676] rounded-md py-2 px-4 cursor-pointe"
+                        className="theBlueButton py-2 px-4 cursor-pointe"
                       >
                         {selectedFile ? selectedFile.name : "เลือกไฟล์ภาพ"}
                       </label>
@@ -524,7 +524,7 @@ function GurantyForm() {
               <div className="flex justify-start">
                 <button
                   type="submit"
-                  className="justify-center rounded-md border px-[24px] py-[12px] border-transparent bg-[#263676] text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  className="justify-center border px-[24px] py-[12px] border-transparent theBlueButton shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                   ลงทะเบียนรับประกัันสินค้า
                 </button>
@@ -535,7 +535,7 @@ function GurantyForm() {
         <div className="md:w-[11%] md:block hidden"></div>
         <div className="w-full md:w-[31%]">
           <div className="gravityBgImg py-[100px]">
-            <h2 className="text-[56px] leading-[70px] font-bold text-center heading-gradient">
+            <h2 className="text-[56px] sm:text-[42px] sm:leading-[55px] leading-[70px] font-bold text-center heading-gradient">
               เสียงเงียบ
               <br />
               ทุกจังหวะ
@@ -544,19 +544,19 @@ function GurantyForm() {
             </h2>
           </div>
 
-          <div className="bg-[#F8F8F9] rounded-[22px] mt-6">
+          <div className="bg-[#F8F8F9] rounded-[22px] mt-6 h-max">
             <img src={gravityImg} alt="" />
             <h4 className="text-[21px] leading-[33px] font-bold text-center heading-gradient">
               กำลังไฟฟ้าที่ทรงพลัง
             </h4>
-            <h2 className="text-[40px] leading-[49px] tracking-[-0.6px] font-bold mt-3 text-center heading-gradient">
+            <h2 className="text-[40px] md:pb-5 lg:pb-0 md:text-[30px] md:leading-[40px] leading-[49px] tracking-[-0.6px] font-bold mt-3 text-center heading-gradient">
               ระบบแรงดันน้ำคงที่ และ เปิด - ปิดก๊อกน้ำอัตโนมัติ
             </h2>
-            <img src={gravityDrops} className="mt-6" alt="" />
+            <img src={gravityDrops} className="mt-6 lg:block hidden" alt="" />
           </div>
 
           <div className="mt-6">
-            <img src={gravityBgImg} alt="" />
+            <img className="" src={gravityBgImg} alt="" />
           </div>
         </div>
       </div>

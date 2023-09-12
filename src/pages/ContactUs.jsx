@@ -255,7 +255,7 @@ function ContactUs() {
             src="https://maps.google.com/maps?width=850&amp;height=400&amp;hl=en&amp;q=Clinton%20Intertrade%20Co.,LTD&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
-        <div className="w-[100%] lg:w-[25%] bg-[#F3F3F3] pt-[70px] pb-[50px] px-[60px]">
+        <div className="w-[100%] lg:w-[25%] bg-[#F3F3F3] pt-[70px] pb-[50px] px-[40px]">
           <h3 className="text-2xl text-[#6A777C] font-semibold">
             สถานที่ติดต่อ
           </h3>
@@ -268,7 +268,7 @@ function ContactUs() {
             เวลา 09:00 น. - 18:00 น.
           </p>
         </div>
-        <div className="w-[100%] lg:w-[25%] bg-[#263676] pt-[60px] pb-[50px] pl-[40px]">
+        <div className="w-[100%] lg:w-[25%] bg-[#263676] pt-[50px] pb-[50px] pl-[40px]">
           <h3 className="text-2xl text-white font-semibold">ติดต่อเรา</h3>
           <div className="flex mt-4">
             <img src={phone} alt="" />

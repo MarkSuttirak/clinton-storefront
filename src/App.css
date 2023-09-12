@@ -246,10 +246,33 @@ body{
 }
 
 
-.gravityBgImg {
-  background-image:url('../src/img/gravityBgImg.png');
-  background-position:center;
-  background-repeat:no-repeat;
+
+.theBlueButton{
+  background: #263676;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+
+.clintonButton:hover {
+  /* color: var(--minimog-color-button-hover-text); */
+  /* border-color: var(--minimog-color-button-hover-border); */
+  /* background-color: var(--minimog-tm-button-hover-background); */
+  box-shadow: 0 0 0 0.2rem #263676;
+  transition: 0.5s ease;
+}
+
+
+@media only screen and (min-width:1200px){
+  .gravityBgImg {
+    background-image:url('../src/img/gravityBgImg.png');
+    background-position:center;
+    background-repeat:no-repeat;
+  }
 }
 
 

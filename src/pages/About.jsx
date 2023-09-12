@@ -65,7 +65,7 @@ function About() {
         <img className="h-auto sm:hidden" src={clintonAboutUsMobile} alt="" />
         <img className="h-auto sm:block w-full hidden" src={clintonAboutUs} alt="" />
       </div>
-      <div className="max-w-5xl text-center mx-auto px-[15px] sm:px-0">
+      <div className="max-w-5xl text-center mx-auto px-[15px] sm:px-6">
         <p className="text-[24px] sm:text-[26px] leading-[37px] font-semibold text-[#626262]">
           ผลิตภัณฑ์ CLINTON เป็นเครื่องมือช่างมาตรฐาน ที่ทุกบ้านควรมี
           เครื่องของเรา สามารถใช้ทำงานได้ง่าย ตอบสนองความต้องการใช้งานทุกประเภท
@@ -73,7 +73,7 @@ function About() {
           เราเน้นเรื่องความปลอดภัย ความคงทน และใช้งานง่าย
         </p>
       </div>
-      <div className="max-w-[1170px] mt-[100px] flex flex-wrap sm:flex-nowrap gap-12 mx-auto px-[20px] sm:px-0">
+      <div className="max-w-[1170px] mt-[100px] flex flex-wrap sm:flex-nowrap gap-9 mx-auto px-[20px] sm:px-6">
         <div>
           <img
             src={pump_aboutus}
@@ -83,11 +83,11 @@ function About() {
           <img src={About2} className="max-h-[349px] mt-[36px] " alt="" />
         </div>
         <div>
-          <img src={image101} className="w-full" alt="" />
+          <img src={image101} className="w-full h-full" alt="" />
         </div>
       </div>
 
-      <div className="max-w-[1140px] mx-auto sm:mt-[150px] mt-[100px] px-[15px] sm:px-0">
+      <div className="max-w-[1140px] mx-auto sm:mt-[150px] mt-[100px] px-[15px] sm:px-6">
         <div className="mx-auto">
           <h3 className="text-[39px] sm:text-[70px] leading-[56px] sm:leading-[74px] text-[#243576] font-bold">
             CLINTON INTERTRADE
@@ -107,12 +107,12 @@ function About() {
         </div>
       </div>
 
-      <div className="max-w-[1140px] flex flex-wrap justify-between mx-auto sm:mt-[80px] mt-[100px] px-[10px] sm:px-0">
+      <div className="max-w-[1140px] flex flex-wrap justify-between mx-auto sm:mt-[80px] mt-[100px] px-[10px] sm:px-6">
         <img src={AboutUsGenerator} className="w-[40%]" alt="" />
         <img src={AboutUsDrill} className="max-w-[80%] w-[40%]" alt="" />
       </div>
 
-      <div className="max-w-[1140px] mx-auto flex flex-wrap lg:mt-[150px] mt-[100px] px-[15px]">
+      <div className="max-w-[1140px] mx-auto flex flex-wrap lg:mt-[150px] mt-[100px] px-[15px] lg:px-6">
         <div className="w-[100%] sm:w-[47%]">
           <img src={aboutMiddleImg1} className="rounded-2xl" alt="" />
           <h6 class="text-[26px] leading-[37px] text-[#434343] font-bold mt-[20px]">
@@ -218,7 +218,7 @@ function About() {
         </div>
       </div>
 
-      <div className="max-w-[1170px] mx-auto mt-[80px] md:mb-[250px] mb-[100px] px-[15px]">
+      <div className="max-w-[1170px] mx-auto mt-[80px] md:mb-[250px] mb-[100px] px-[15px] lg:px-6">
         <p className="text-[#676767] text-sm leading-[28px] ">
           เราเริ่มต้นมากจากความที่เราชอบ "สร้าง" สร้างในที่นี้คือ "สร้างสรรค์"
           จึงทำให้เกิดการ ก่อตั้งบริษัทอุปกรณ์และเครื่องมือช่างขึ้นมา

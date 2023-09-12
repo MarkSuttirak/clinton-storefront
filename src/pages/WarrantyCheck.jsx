@@ -64,7 +64,7 @@ function WarrantyCheck() {
             </h1>
           </div>
         </div>
-        <div className="mt-12 flex flex-col">
+        <div className="mt-12 flex flex-col px-4 sm:px-7 lg:px-0">
           <div className="-my-2 -mx-4 overflow-x-auto">
             <div className="inline-block min-w-full py-2 align-middle">
               <div className="overflow-hidden shadow-sm ring-1 ring-black ring-opacity-5">
@@ -131,16 +131,16 @@ function WarrantyCheck() {
                   <tbody className="divide-y divide-gray-200 bg-white">
                     {people.map((person) => (
                       <tr key={person.ระยะเวลารับประกัน}>
-                        <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-normal text-gray-900 sm:pl-6 lg:pl-8">
+                        <td className="whitespace-nowrap py-1 pl-4 pr-3 text-base font-normal text-[#111111] sm:pl-6 lg:pl-8">
                           {person.productModel}
                         </td>
-                        <td className="whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
+                        <td className="whitespace-nowrap px-3 py-1 text-base font-normal text-[#111111]">
                           {person.ชื่อสินค้า}
                         </td>
-                        <td className="whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
+                        <td className="whitespace-nowrap px-3 py-1 text-base font-normal text-[#111111]">
                           {person.ระยะเวลารับประกัน}
                         </td>
-                        <td className="whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
+                        <td className="whitespace-nowrap px-3 py-1 text-base font-normal text-[#111111]">
                           {person.เงื่อนไข}
                         </td>
                         <td className=" md:whitespace-break-spaces whitespace-nowrap px-3 py-4 text-base font-normal text-[#111111]">
@@ -169,13 +169,13 @@ function WarrantyCheck() {
             <div className="flex flex-1 justify-between sm:justify-end">
               <a
                 href="#"
-                className="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+                className="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 Previous
               </a>
               <a
                 href="#"
-                className="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+                className="relative ml-1 sm:ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
               >
                 Next
               </a>
